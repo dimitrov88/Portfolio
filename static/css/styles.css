@@ -343,7 +343,18 @@ label {
 button {
   border-radius: 0;
 }
+#submitButton {
+    background-color: #3498db; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for better appearance */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
 
+#submitButton:hover {
+    background-color: #2980b9; /* Darker blue color on hover */
+}
 button:focus:not(:focus-visible) {
   outline: 0;
 }
